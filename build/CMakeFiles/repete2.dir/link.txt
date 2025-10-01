@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/repete2.dir/2.Repetições_Encaixadas/2/dois.c.o -o repete2  -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int21.dir/1.Inteiros/21/vinteum.c.o -o int21  -lm 

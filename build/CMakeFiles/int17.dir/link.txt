@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int17.dir/1.Inteiros/17/dezessete.c.o -o int17  -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/repete1.dir/2.Repetições_Encaixadas/1/um.c.o -o repete1  -lm 

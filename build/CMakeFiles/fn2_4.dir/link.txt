@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/fn2_4.dir/5.Funcoes2/4/quatro.c.o -o fn2_4  -lm 

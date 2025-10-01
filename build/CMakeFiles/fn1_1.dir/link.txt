@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/fn1_1.dir/4.Funcoes1/1/um.c.o -o fn1_1  -lm 

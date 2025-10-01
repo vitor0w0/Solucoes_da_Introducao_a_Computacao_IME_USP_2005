@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int19.dir/1.Inteiros/19/dezenove.c.o -o int19  -lm 

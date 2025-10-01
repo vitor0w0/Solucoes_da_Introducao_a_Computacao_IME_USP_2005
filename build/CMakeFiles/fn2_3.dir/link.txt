@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/fn2_3.dir/5.Funcoes2/3/tres.c.o -o fn2_3  -lm 

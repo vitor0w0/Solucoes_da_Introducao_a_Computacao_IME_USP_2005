@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/m6.dir/7.Matriz/6/seis.c.o CMakeFiles/m6.dir/7.Matriz/matriz.c.o -o m6 

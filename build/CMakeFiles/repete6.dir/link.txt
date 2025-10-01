@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/repete6.dir/2.Repetições_Encaixadas/6/seis.c.o -o repete6  -lm 

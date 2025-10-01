@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/real7.dir/3.Reais/7/sete.c.o -o real7  -lm 

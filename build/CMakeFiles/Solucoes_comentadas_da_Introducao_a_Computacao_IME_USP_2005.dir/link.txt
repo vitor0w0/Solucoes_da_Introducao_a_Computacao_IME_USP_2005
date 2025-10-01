@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Solucoes_comentadas_da_Introducao_a_Computacao_IME_USP_2005.dir/main.c.o -o Solucoes_comentadas_da_Introducao_a_Computacao_IME_USP_2005 

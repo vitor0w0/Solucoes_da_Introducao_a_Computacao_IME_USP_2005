@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet16.dir/6.Vetores/16/dezesseis.c.o -o vet16  -lm 

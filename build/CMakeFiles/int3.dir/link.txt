@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int3.dir/1.Inteiros/3/tres.c.o -o int3  -lm 

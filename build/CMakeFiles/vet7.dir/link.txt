@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet7.dir/6.Vetores/7/sete.c.o -o vet7  -lm 

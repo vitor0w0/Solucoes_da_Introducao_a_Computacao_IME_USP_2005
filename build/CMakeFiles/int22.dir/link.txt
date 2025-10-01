@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int22.dir/1.Inteiros/22/vintedois.c.o -o int22  -lm 

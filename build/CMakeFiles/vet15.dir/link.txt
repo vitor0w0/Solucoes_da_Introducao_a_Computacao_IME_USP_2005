@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet15.dir/6.Vetores/15/quinze.c.o -o vet15  -lm 

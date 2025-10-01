@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet13.dir/6.Vetores/13/treze.c.o -o vet13  -lm 

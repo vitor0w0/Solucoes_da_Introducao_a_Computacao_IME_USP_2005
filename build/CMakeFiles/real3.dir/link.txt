@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/real3.dir/3.Reais/3/tres.c.o -o real3  -lm 

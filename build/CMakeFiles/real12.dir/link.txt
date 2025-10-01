@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/real12.dir/3.Reais/12/doze.c.o -o real12  -lm 
