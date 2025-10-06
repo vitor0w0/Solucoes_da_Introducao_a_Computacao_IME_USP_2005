@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int5.dir/1.Inteiros/5/cinco.c.o -o int5  -lm 

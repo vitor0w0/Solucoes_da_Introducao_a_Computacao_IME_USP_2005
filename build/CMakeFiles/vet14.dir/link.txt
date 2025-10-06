@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet14.dir/6.Vetores/14/catorze.c.o -o vet14  -lm 

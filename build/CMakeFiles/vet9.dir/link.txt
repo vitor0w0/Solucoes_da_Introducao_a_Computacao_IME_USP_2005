@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet9.dir/6.Vetores/9/nove.c.o -o vet9  -lm 

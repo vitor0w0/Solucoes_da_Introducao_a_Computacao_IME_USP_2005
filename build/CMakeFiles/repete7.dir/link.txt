@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/repete7.dir/2.Repetições_Encaixadas/7/sete.c.o -o repete7  -lm 

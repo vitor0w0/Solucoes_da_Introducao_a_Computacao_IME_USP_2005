@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int10.dir/1.Inteiros/10/dez.c.o -o int10  -lm 

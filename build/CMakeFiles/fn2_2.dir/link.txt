@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/fn2_2.dir/5.Funcoes2/2/dois.c.o -o fn2_2  -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/real4.dir/3.Reais/4/quatro.c.o -o real4  -lm 

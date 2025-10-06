@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet8.dir/6.Vetores/8/oito.c.o -o vet8  -lm 

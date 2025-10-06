@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int6.dir/1.Inteiros/6/seis.c.o -o int6  -lm 

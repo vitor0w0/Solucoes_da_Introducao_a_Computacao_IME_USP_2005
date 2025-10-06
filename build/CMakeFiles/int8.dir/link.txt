@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/int8.dir/1.Inteiros/8/oito.c.o -o int8  -lm 

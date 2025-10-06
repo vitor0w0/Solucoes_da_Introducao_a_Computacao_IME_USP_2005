@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet5.dir/6.Vetores/5/cinco.c.o -o vet5  -lm 

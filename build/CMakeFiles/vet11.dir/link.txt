@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vet11.dir/6.Vetores/11/onze.c.o -o vet11  -lm 
