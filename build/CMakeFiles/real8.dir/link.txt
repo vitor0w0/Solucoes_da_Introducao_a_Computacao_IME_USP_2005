@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/real8.dir/3.Reais/8/oito.c.o -o real8  -lm 

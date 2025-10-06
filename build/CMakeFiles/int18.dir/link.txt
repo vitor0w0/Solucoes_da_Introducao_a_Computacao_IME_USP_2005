@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int18.dir/1.Inteiros/18/dezoito.c.o -o int18  -lm 

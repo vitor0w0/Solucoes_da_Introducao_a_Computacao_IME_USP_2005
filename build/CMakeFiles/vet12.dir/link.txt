@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/vet12.dir/6.Vetores/12/doze.c.o -o vet12  -lm 

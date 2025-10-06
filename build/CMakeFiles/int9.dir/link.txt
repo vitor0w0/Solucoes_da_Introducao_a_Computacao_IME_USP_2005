@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int9.dir/1.Inteiros/9/nove.c.o -o int9  -lm 

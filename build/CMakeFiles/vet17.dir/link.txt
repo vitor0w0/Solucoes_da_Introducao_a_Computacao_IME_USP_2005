@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/vet17.dir/6.Vetores/17/dezessete.c.o -o vet17  -lm 

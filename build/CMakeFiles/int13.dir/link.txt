@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int13.dir/1.Inteiros/13/treze.c.o -o int13  -lm 

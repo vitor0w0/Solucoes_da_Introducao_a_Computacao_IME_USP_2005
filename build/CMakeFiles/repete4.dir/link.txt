@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/repete4.dir/2.Repetições_Encaixadas/4/quatro.c.o -o repete4  -lm 

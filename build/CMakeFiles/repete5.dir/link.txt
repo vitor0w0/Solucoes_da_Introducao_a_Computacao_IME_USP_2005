@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/repete5.dir/2.Repetições_Encaixadas/5/cinco.c.o -o repete5  -lm 

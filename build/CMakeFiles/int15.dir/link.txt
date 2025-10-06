@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int15.dir/1.Inteiros/15/quinze.c.o -o int15  -lm 

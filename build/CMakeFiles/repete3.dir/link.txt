@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/repete3.dir/2.Repetições_Encaixadas/3/tres.c.o -o repete3  -lm 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int7.dir/1.Inteiros/7/sete.c.o -o int7  -lm 
