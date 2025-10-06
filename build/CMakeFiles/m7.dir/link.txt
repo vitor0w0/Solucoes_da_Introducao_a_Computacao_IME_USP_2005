@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/m7.dir/7.Matriz/7/sete.c.o CMakeFiles/m7.dir/7.Matriz/matriz.c.o -o m7 

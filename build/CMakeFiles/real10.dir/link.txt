@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/real10.dir/3.Reais/10/dez.c.o -o real10  -lm 

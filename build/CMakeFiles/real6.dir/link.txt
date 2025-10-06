@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/real6.dir/3.Reais/6/seis.c.o -o real6  -lm 

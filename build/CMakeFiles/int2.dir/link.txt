@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int2.dir/1.Inteiros/2/dois.c.o -o int2  -lm 

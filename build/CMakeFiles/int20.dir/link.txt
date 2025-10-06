@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int20.dir/1.Inteiros/20/vinte.c.o -o int20  -lm 

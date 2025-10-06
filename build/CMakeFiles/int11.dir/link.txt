@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int11.dir/1.Inteiros/11/onze.c.o -o int11  -lm 

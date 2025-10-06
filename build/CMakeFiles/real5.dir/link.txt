@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/real5.dir/3.Reais/5/cinco.c.o -o real5  -lm 

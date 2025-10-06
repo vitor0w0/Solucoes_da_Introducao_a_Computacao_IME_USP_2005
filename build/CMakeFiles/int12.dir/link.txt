@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int12.dir/1.Inteiros/12/doze.c.o -o int12  -lm 

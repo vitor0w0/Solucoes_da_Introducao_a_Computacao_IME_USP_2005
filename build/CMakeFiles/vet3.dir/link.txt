@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/vet3.dir/6.Vetores/3/tres.c.o -o vet3  -lm 

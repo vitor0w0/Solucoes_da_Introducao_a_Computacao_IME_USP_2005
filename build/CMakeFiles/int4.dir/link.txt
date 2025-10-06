@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int4.dir/1.Inteiros/4/quatro.c.o -o int4  -lm 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/int16.dir/1.Inteiros/16/dezesseis.c.o -o int16  -lm 

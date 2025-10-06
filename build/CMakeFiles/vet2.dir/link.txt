@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/vet2.dir/6.Vetores/2/dois.c.o -o vet2  -lm 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/fn1_5.dir/4.Funcoes1/5/cinco.c.o -o fn1_5  -lm 

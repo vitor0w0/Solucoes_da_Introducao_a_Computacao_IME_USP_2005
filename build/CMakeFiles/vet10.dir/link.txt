@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/vet10.dir/6.Vetores/10/dez.c.o -o vet10  -lm 

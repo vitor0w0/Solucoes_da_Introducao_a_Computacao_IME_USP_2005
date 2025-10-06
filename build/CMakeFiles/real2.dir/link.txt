@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/real2.dir/3.Reais/2/dois.c.o -o real2  -lm 
