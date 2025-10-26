@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-//monta um polinomio decrescente de ponto flutuante com tamanho grau + 1
+//monta um polinomio crescente de ponto flutuante com tamanho grau + 1
 void montar(double *vet, int grau){
     printf("Digite polinomio com %d elementos: ", grau+1);
     for (int i = 0; i <= grau; i++){
@@ -10,11 +10,11 @@ void montar(double *vet, int grau){
     }
 }
 
-void printatual(int grau, double *vet, int i, bool negativo){
+void printatual(double *vet, int grau, bool negativo){
     if(negativo)
-        printf("%.0lf", -vet[i]);
+        printf("%.0lf", -vet[grau]);
     else 
-        printf("%.0lf", vet[i]);
+        printf("%.0lf", vet[grau]);
     switch (grau){
         case 0:
             printf(" ");
@@ -28,33 +28,33 @@ void printatual(int grau, double *vet, int i, bool negativo){
     }
 }
 
-//exibe no console um polinomio decrescente
+//exibe no console um polinomio crescente
 void exibir(double *vet, int grau){
-    int tam = grau;
-    printf("Polinomio: ");
-    printatual(grau--, vet, 0, false);
-    for (int i = 1; i <= tam; i++, grau--){
-        if(vet[i] > 0){
-            printf("+ ");
-        } else{
+    if(vet[0] < 0) 
+        printf("- ");
+    printatual(vet, 0, (vet[0] < 0));
+    for (int i = 1; i <= grau; i++){
+        if(vet[i] < 0)
             printf("- ");
-        }
-        printatual(grau, vet, i, (vet[i] < 0));
+        else
+            printf("+ ");
+        printatual(vet, i, (vet[i] < 0));
     }
     putchar('\n');
 }
 
-//retorna a soma de um polinomio decrescente a partir de um valor x
-double calcular(double *vet, int grau, int x){
-    double soma = 0;
-    int tam = grau;
-    for (int i = 0; i < tam; i++, grau--){
-        double pot = 1;
-        for (int j = 0; j < grau; j++){
-            pot *= x;
-        }
-        soma += vet[i] * pot;
+//retorna a soma de um polinomio crescente a partir de um valor x 
+double calcular(double *vet, int grau, double x){
+    double mult = vet[0];
+    for (int i = 1; i <= grau; i++){
+        mult = mult * x + vet[i];
     }
-    soma += vet[tam];
-    return soma;
+    return mult;
+}
+
+//transforma o vetor dado na derivada do polinomio, se a0+a1x+...+anxn
+void derivada(double *src, int grau, double *dst){
+    for (int i = 1; i <= grau; i++){
+        dst[i-1] = src[i] * i;
+    }
 }

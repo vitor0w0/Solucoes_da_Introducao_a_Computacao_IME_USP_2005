@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "../matriz.h"
+#include "matriz.h"
 //4 - Dada uma matriz real Amxn, verificar se existem elementos repetidos em A.
 int search(float *arr, int n, float target);
 int main() {

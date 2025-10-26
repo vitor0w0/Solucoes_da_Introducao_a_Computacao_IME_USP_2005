@@ -5,16 +5,17 @@ int main(void) {
     printf("Grau: ");
     scanf("%d", &n);
     double vet[n+1];
+    printf("Polinomio: ");
     montar(vet, n);
     exibir(vet, n);
     printf("Quantos pontos k: ");
     int k;
     scanf("%d", &k);
-    int pontos[k];
+    double pontos[k];
     for (int i = 0; i < k; i++)
-        scanf("%d", &pontos[i]);
+        scanf("%lf", &pontos[i]);
 
     for (int i = 0; i < k; i++)
-        printf("Se x = %d: %0.lf\n", pontos[i], calcular(vet, n, pontos[i]));
+        printf("Se x = %.4lf: %.4lf\n", pontos[i], calcular(vet, n, pontos[i]));
     return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../matriz.h"
+#include "matriz.h"
 //3.  Dadas duas matrizes reais  Amxn e Bnxp, calcular o produto de A por B.
 int main() {
     int m, n, p;

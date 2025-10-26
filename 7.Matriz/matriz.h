@@ -1,5 +1,5 @@
-#ifndef QUESTOES_MATRIZ_H
-#define QUESTOES_MATRIZ_H
+#ifndef MATRIZ_H
+#define MATRIZ_H
 //funções IO de matriz inteira
 void min(int m, int n, int[m][n]);
 
@@ -11,12 +11,12 @@ void mrin(int m, int n, float matriz[m][n]);
 void mrout(int m, int n, float matriz[m][n]);
 
 //funções IO de vetor real
-void vrin(int n, float v[n]);
+void vrin(float *v, int n);
 
-void vrout(int n, float v[n]);
+void vrout(float *v, int n);
 
 //funções IO de vetor inteiro
-void vin(int n, int v[n]);
+void vin(int *v, int n);
 
-void vout(int n, int v[n]);
+void vout(int *v, int n);
 #endif //QUESTOES_MATRIZ_H

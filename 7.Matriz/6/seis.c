@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../matriz.h"
+#include "matriz.h"
 
 /**
 *  Dada uma matriz  Amxn, imprimir o número de linhas e o número de colunas nulas da matriz.

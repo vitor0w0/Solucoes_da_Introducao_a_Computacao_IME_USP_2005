@@ -1,7 +1,4 @@
 #include <stdio.h>
-int mdc(int a, int b);
-int phi(int n);
-int tam(int k);
 /**
     14 - (POLI 82) Chama-se seqüência de Farey relativa a n, a seqüência das frações racionais irredutíveis,
     dispostas em ordem crescente, com denominadores positivos e não maiores que n.
@@ -23,49 +20,6 @@ int tam(int k);
 
 */
 int main() {
-    int n;
-    scanf("%d", &n);
-    int len = tam(n);
-    int den[len], num[len];
-
-    num[0] = 0;
-    den[0] = 1;
-    num[len-1] = 1;
-    den[len-1] = 1;
-
-    for (int i = 0; i < len; i++) {
-        printf("%d, ", num[i]);
-    }
-    putchar('\n');
-    for (int i = 0; i < len; i++) {
-        printf("%d, ", den[i]);
-    }
-
-
+    //TODO
     return 0;
-}
-
-
-
-int mdc(int a, int b) {
-    if (b == 0) {
-        return a;
-    }
-    return mdc(b, a%b);
-}
-int phi(int n) {
-    if (n==1) return 1;
-    int soma = 0;
-    for (int i = 1; i < n; ++i) {
-        if (mdc(i, n) == 1)
-            soma++;
-    }
-    return soma;
-}
-int tam(int k) {
-    int soma = 1;
-    for (int i = 1; i <= k; ++i) {
-        soma += phi(i);
-    }
-    return soma;
 }

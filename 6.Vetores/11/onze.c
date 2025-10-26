@@ -5,28 +5,27 @@
     determine os coeficientes reais da primeira derivada de p(x).
     formula = an * n * x^n-1
  */
-void derivada(double *vet, int grau);
 int main(void) {
     int n;
     scanf("%d", &n);
     double vet[n+1];
 
     montar(vet, n);
+    printf("Polinomio: ");
     exibir(vet, n);
 
     printf("Derivada: ");
-    if(n == 0)
-        printf("%.0lf\n", vet[0]);
-    else
-        derivada(vet, n--);
-
-    exibir(vet, n);
-    return 0;
-}
-void derivada(double *vet, int grau){
-    int tam = grau-1, copia_grau = grau;
-    for (int i = 0; i < tam; i++){
-        vet[i] = copia_grau*vet[i];
-        copia_grau--;
+    switch (n){
+    case 0:
+        printf("0(nula)\n");
+        break;
+    case 1:
+        printf("%.0f\n", vet[1]);
+        break;
+    default:
+        derivada(vet, n, vet);
+        exibir(vet, n-1);
+        break;
     }
+    return 0;
 }

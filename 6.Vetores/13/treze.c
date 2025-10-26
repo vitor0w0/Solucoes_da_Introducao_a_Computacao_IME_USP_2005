@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include "poli.h"
-#include <stdlib.h>
-#include <math.h>
 //13 - Dados dois polinômios reais   p(x)=a0+a1x+...+anxn e q(x)=b0+b1x+...+bmxm determinar o produto desses polinômios.
 void print(double prod, int grau){
         printf("%.0lf", prod);
@@ -17,13 +15,10 @@ void print(double prod, int grau){
             break;
     }
 }
-void produto(double *mvet, double*nvet, int m, int n){
-    int k = 0, mtam = m, ntam = n;
-    for (int i = 0; m >= 0; i++, m--){
-        n = ntam;
-        for (int j = 0; n >= 0; j++, n--){
-            double prod = mvet[i] * nvet[j];
-            print(prod, m+n);
+double produto(double *mvet, double*nvet, int m, int n){;
+    for (int i = 0; i <= m; i++){
+        for (int j = 0; j <= n; j++){
+            print(mvet[i] * nvet[j], i+j);
         }
     }
     putchar('\n');

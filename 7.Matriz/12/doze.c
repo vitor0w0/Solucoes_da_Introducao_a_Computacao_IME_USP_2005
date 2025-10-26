@@ -1,6 +1,4 @@
-#include <ctype.h>
 #include <stdio.h>
-#include <string.h>
 /**
     *12.  (FEA 68) Deseja-se fazer a emissão da folha de pagamento de uma empresa.
     *Para cada um dos n funcionários da empresa são dadas as seguintes informações:
@@ -29,10 +27,7 @@
     imposto de renda = 0.08 * salário bruto.
     Salário líquido = salário bruto - desconto total.
 */
-void input(char *nome, float *SAL, float *HED, float *HEN, int *ND, float *FAL, float *DE, float *REF, float *VAL);
-void mai(char *nome, int n);
 int main(){
-    int n;
-    scanf("%d", &n);
+    //TODO
     return 0;
 }

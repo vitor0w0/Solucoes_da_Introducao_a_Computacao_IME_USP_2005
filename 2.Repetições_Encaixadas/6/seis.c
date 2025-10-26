@@ -2,7 +2,6 @@
 #define false 0
 #define true 1
 //6 - Dado um número inteiro positivo, determine a sua decomposição em fatores primos calculando também a multiplicidade de cada fator.
-int primo();
 int main() {
     int num;
     printf("Digite um numero: ");
