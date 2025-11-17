@@ -17,14 +17,14 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    // Solução com matriz:
-    //int pascal[n][n];
-    //m_pascal(n, pascal);
-    //m_print(n, pascal);
+    printf("Solução com matriz:\n");
+    int pascal[n][n];
+    m_pascal(n, pascal);
+    m_print(n, pascal);
 
-    // Solução com vetor:
-    //int pascal[n];
-    //v_pascal(n, pascal);
+    printf("Solução com vetor:\n");
+    int vpascal[n];
+    v_pascal(n, vpascal);
     return 0;
 }
 void m_print(int n, int pascal[n][n]){
@@ -44,9 +44,7 @@ void m_pascal(int n, int pascal[n][n]){
     }
     for (int i = 0; i < n - 1; ++i){
         for (int j = 0; j < i; j++){
-            for (int k = j + 1; k == j + 1; ++k){
-                pascal[i + 1][k] += pascal[i][j] + pascal[i][k];
-            }
+            pascal[i + 1][j + 1] += pascal[i][j] + pascal[i][j + 1];
         }
     }
 }

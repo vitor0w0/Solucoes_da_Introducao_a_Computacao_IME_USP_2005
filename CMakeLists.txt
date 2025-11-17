@@ -39,12 +39,12 @@ um dois tres quatro cinco seis)
 add_exercicio("5.Funcoes2" fn2_
 um dois tres quatro cinco seis)
 
-#falta 10, 11, 12, 13, 14, 15, 16, 17
+#faltam 14 e 17
 add_exercicio("6.Vetores" vet
 um dois tres quatro cinco seis sete oito nove dez onze doze treze catorze quinze dezesseis dezessete)
 
 add_exercicio("7.Matriz" ma
-um dois tres quatro cinco seis sete oito nove dez onze doze)
+um dois tres quatro cinco seis sete oito)
 
 add_exercicio("8.Funcoes3" fn3_ um dois tres quatro cinco seis sete oito nove dez onze doze treze catorze quinze)
 
@@ -52,6 +52,6 @@ foreach(tgt vet10 vet11 vet12 vet13 fn3_10)
     target_link_libraries(${tgt} PUBLIC poli)
 endforeach()
 
-foreach(tgt ma1 ma2 ma3 ma4 ma5 ma6 ma7 ma9 ma10 ma11 ma12 fn3_3 fn3_4 fn3_5 fn3_7 fn3_8 fn3_9 fn3_11 fn3_14 fn3_15)
+foreach(tgt ma1 ma2 ma3 ma4 ma5 ma6 ma7 fn3_3 fn3_4 fn3_5 fn3_7 fn3_8 fn3_9 fn3_11 fn3_14 fn3_15)
     target_link_libraries(${tgt} PUBLIC mat)
 endforeach()
